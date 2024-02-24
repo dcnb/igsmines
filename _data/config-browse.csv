@@ -1,6 +1,11 @@
 field,display_name,btn,hidden,sort_name
-CompanyList,Company,,,
-CommodityList,Commodity,true
-CountyName,County,true
+ProductionYears,Production Years,
+CompanyList,Company,true,,Company
+CommodityList,Commodity,true,,Commodity
+CountyName,County,true,,County
 MiningDistrict,Mining District,true
+SurfaceManagementAgency,Surface Mgmt.,true
+FSAgencyName,FS,true
 identifier,,,true,Identifier
+date,,,true,date
+

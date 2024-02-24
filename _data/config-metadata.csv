@@ -1,10 +1,24 @@
 field,display_name,browse_link,external_link,dc_map,schema_map
 IGSID,IGSID
 title,title
-CommodityList,CommodityList
-CompanyList,CompanyList
+ProductionYears,Years in Production
+CommodityList,CommodityList,true
+CompanyList,CompanyList,true
 longitude,longitude
 latitude,latitude
+CountyName,CountyName,true
+SurfaceManagementAgency,SurfaceManagementAgency,true
+FSAgencyName,FSAgencyName,true
+OrangeNumber,OrangeNumber
+ZIP,ZIP
+MiningDistrict,MiningDistrict
+Placer,Placer
+Underground,Underground
+Surface,Surface
+Drilled,Drilled
+Producer,Producer
+Processing,Processing
+LocationType,LocationType
 DMSlon,DMSlon
 DMSlat,DMSlat
 WGS84lon,WGS84lon
@@ -18,18 +32,5 @@ plssRANGE,plssRANGE
 plssSECTION,plssSECTION
 plssQQSECTION,plssQQSECTION
 plssQSECTION,plssQSECTION
-CountyName,CountyName
-SurfaceManagementAgency,SurfaceManagementAgency
-FSAgencyName,FSAgencyName
-OrangeNumber,OrangeNumber
-ZIP,ZIP
-MiningDistrict,MiningDistrict
-Placer,Placer
-Underground,Underground
-Surface,Surface
-Drilled,Drilled
-Producer,Producer
-Processing,Processing
-LocationType,LocationType
 
 

@@ -1,0 +1,12 @@
+need the dashes up above!!!
+
+---
+---
+<data date-time-format="iso8601">
+  {% assign mines = site.data.ProductionPeriod %}
+  {% for m in mines %}{% if m.StartYear %}
+{%- assign mine = site.data[site.metadata] | where: "IGSID", m.IGSID | first -%}  <event start="{{ m.StartYear }}-01-01 10:20:01Z" end="{% if m.StartYear == m.EndYear %}{{ m.EndYear | plus: 1 }}-01-01 10:20:01Z{% else %}{{ m.EndYear }}-01-01 10:20:01Z{% endif %}" color="" isDuration="true" title="{{ mine.title | strip | escape | replace: "&","&amp;"}}" link="{{ '/items/' | relative_url }} {{ mine.objectid | lower}}.html" image="/assets/img/minecart-loaded.svg">
+  {{ mine.title | strip | escape | replace: "&","&amp;"}} was in production {{m.ProductionYears}}
+  </event>
+  {% endif %}{% endfor %}
+</data>
